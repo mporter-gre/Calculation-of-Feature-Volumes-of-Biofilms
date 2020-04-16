@@ -1,6 +1,6 @@
 # Calculation-of-Feature-Volumes-of-Biofilms
 
-The purpose of this code is to return Volume Images and their sums from a dataset of intensity images on an OMERO server.
+The purpose of this code is to return Volume Images and their sums from a dataset of intensity images on an OMERO server into Matlab.
 
 [volumes, volSum]= volumeUnderBiofilm(session, dsId);
 
