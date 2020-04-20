@@ -1,6 +1,6 @@
 # Calculation-of-Feature-Volumes-of-Biofilms
 
-The purpose of this code is to return Volume Images and their sums from a dataset of intensity images on an OMERO server into Matlab. In this instance, a Volume Image is a single xy plane, with each xy location containing the number of the highest z-section segmented in the original intensity image. The sum of this gives the total feature volume of the image. The original use was for detailing the feature volumes of images of bacterial biofilms, but it will conceptually work for any volumetric intensity image of reasonable dynamic range.
+The purpose of this code is to return Volume Images (representing surfaces) and their sums (absolute volume) from a dataset of intensity images on an OMERO server into Matlab. In this instance, a Volume Image is a single xy plane, with each xy location containing the number of the highest z-section segmented in the original intensity image. The sum of this gives the total feature volume of the image. The original use was for detailing the feature volumes of images of bacterial biofilms, but it will conceptually work for any volumetric intensity image of reasonable dynamic range.
 
 [volumes, volSum]= volumeUnderBiofilm(session, dsId);
 
